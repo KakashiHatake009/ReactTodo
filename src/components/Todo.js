@@ -6,10 +6,12 @@ function Todo(props) {
   const [isModalOpen, setModalState] = useState(false);
   console.log(isModalOpen);
 
+  // No Functionality yet just Opens the Modal
   const deleteHandler = function () {
     setModalState(true);
   };
 
+  // Closes the Modal
   const closeModalHandler = function () {
     setModalState(false);
   };
